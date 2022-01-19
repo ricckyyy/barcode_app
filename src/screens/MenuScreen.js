@@ -9,8 +9,8 @@ export default function MenuScreen() {
         <SafeAreaView style={styles.container}>
             <StatusBar />
             <View style={styles.container}>
-                <Text style={{ fontSize: 20 }}>aiueo</Text>
-                <Button title="BARCODE" />
+                <Text style={{ fontSize: 20 }}>バーコードテスト画面</Text>
+                <Button title="こちらを押してください" onPress={() => navigation.navigate('Barcode')} />
             </View>
         </SafeAreaView>
     )
@@ -19,8 +19,8 @@ export default function MenuScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        borderWidth: 1,
-        borderColor: 'red',
+        // borderWidth: 1,
+        // borderColor: 'red',
         alignItems: 'center',
         justifyContent: 'center',
     },
